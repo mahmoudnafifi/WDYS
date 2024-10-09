@@ -75,6 +75,12 @@ if __name__ == '__main__':
       "'--use_description_features', '--use_predicted_class_features' "
       "must be used.")
 
+  if sum([args.use_class_descriptions, args.use_class_name, args.use_a_photo_of]
+         ) != 1:
+    raise AssertionError(
+      "One of the options '--use_class_descriptions', '--use_class_name', "
+      "'--use_a_photo_of' must be used.")
+
   class_embedding_method = ''
   if args.use_class_name:
     class_embedding_method += ' class_name'
