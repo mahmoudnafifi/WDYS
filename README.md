@@ -13,7 +13,7 @@ PyTorch implementation of the paper:
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d9743225-29f6-40ef-b1f7-f3f1be5af401" width="40%">
+  <img src="https://github.com/user-attachments/assets/d9743225-29f6-40ef-b1f7-f3f1be5af401" width="60%">
 </p>
 
 
